@@ -18,8 +18,8 @@ public class Program {
         int n = kb.nextInt();
         Product[] products = new Product[n];
 
-        for (int i = 1; i <= n; i++) {
-            System.out.println("Product #" + i + " data:");
+        for (int i = 0; i < n; i++) {
+            System.out.println("Product #" + (i+1) + " data:");
             System.out.print("Common, used or imported (c/u/i)? ");
             char type = kb.next().charAt(0);
             System.out.print("Name: ");
@@ -43,7 +43,7 @@ public class Program {
         kb.close();
         System.out.println();
         System.out.println("PRICE TAGS:");
-        for (int i = 1; i <= n; i++) {
+        for (int i = 0; i < n; i++) {
             System.out.println(products[i]);
         }
     }

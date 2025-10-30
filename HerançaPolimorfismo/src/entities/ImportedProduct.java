@@ -18,6 +18,6 @@ public class ImportedProduct extends Product{
 
     @Override
     public String toString() {
-        return super.toString() + " (Custom fee: $" + String.format("%.2f", customFee) + ")";
+        return super.toString() + " (Custom fee: $ " + String.format("%.2f", customFee) + ")";
     }
 }
