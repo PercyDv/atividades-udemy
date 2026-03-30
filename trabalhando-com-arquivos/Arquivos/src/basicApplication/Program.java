@@ -1,4 +1,4 @@
-package src.application;
+package src.basicApplication;
 
 import java.io.File;
 import java.io.IOException;
