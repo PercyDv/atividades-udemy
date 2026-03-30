@@ -1,8 +1,10 @@
 {
     "java.project.sourcePaths": [
+        "generics-set-map/Generics",
         "IntroduçãoAPoo/src",
         "Interfaces/src/application",
+        "Interfaces",
         "ComposicaoEnumeracao/src",
-        "Interfaces"
+        "trabalhando-com-arquivos/Arquivos"
     ]
 }
